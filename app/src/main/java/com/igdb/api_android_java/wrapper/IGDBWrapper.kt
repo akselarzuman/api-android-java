@@ -24,7 +24,7 @@ import java.util.HashMap
  *
  **/
 class IGDBWrapper(context: Context, val API_KEY: String, version: Version = Version.PRO, val debug: Boolean = false) {
-    private var apiURL: String = "https://api-endpoint.igdb.com/"
+    private var apiURL: String = "https://api-v3.igdb.com/"
     private val apiHeader: String = "user-key"
     private var requestQueue: RequestQueue
 
